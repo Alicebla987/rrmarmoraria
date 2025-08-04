@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RR Marmoraria - Agilidade e Qualidade para sua Empresa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>RR <span>MARMORARIA</span></h1>
+                    <p>Agilidade e Qualidade</p>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="about.html" class="nav-link">Sobre</a></li>
+                    <li><a href="#catalog" class="nav-link">Catálogo</a></li>
+                    <li><a href="#services" class="nav-link">Serviços</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="highlight">RR MARMORARIA</span>
+                    <br>Transformando Espaços
+                </h1>
+                <p class="hero-subtitle">Agilidade e Qualidade para sua Empresa</p>
+                <p class="hero-description">
+                    Especialistas em mármore, granito e pedras decorativas. 
+                    Oferecemos soluções completas para seu projeto com a melhor qualidade do mercado.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#catalog" class="btn btn-primary">Ver Catálogo</a>
+                    <a href="#contact" class="btn btn-secondary">Fale Conosco</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <i class="fas fa-gem"></i>
+                    <h3>Pedras Premium</h3>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Instalação Profissional</h3>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Entrega Rápida</h3>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-animation"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-header">
+                <h2 class="section-title">Sobre a <span>RR Marmoraria</span></h2>
+                <p class="section-subtitle">Excelência em cada detalhe</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-item">
+                        <div class="about-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="about-info">
+                            <h3>Qualidade Garantida</h3>
+                            <p>Trabalhamos apenas com as melhores pedras e materiais do mercado, garantindo durabilidade e beleza em cada projeto.</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <div class="about-info">
+                            <h3>Agilidade na Entrega</h3>
+                            <p>Prazos cumpridos e entregas pontuais. Sabemos que seu tempo é valioso e respeitamos cada cronograma.</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="about-info">
+                            <h3>Equipe Especializada</h3>
+                            <p>Profissionais qualificados e experientes para garantir a perfeita execução de seu projeto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="https://media.discordapp.net/attachments/1111487551405039718/1401745564927791116/Photoroom-20250802_185903.png?ex=689164c9&is=68901349&hm=4de1ac9b0c695cad1d2ced8fde012105aa23979aad8db37435f6bfc59c1380b5&=&format=webp&quality=lossless&width=312&height=693" alt="Imagem da Marmoraria">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <div class="catalog-header">
+                <h2 class="section-title">Nosso <span>Catálogo</span></h2>
+                <p class="section-subtitle">Descubra nossa seleção de pedras premium</p>
+            </div>
+            <div class="catalog-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="marmore">Mármores</button>
+                <button class="filter-btn" data-filter="granito">Granitos</button>
+                <button class="filter-btn" data-filter="quartzo">Quartzo</button>
+                <button class="filter-btn" data-filter="dekton">Dekton</button>
+            </div>
+            <div class="catalog-grid">
+                <!-- Mármores -->
+                <div class="catalog-item" data-category="marmore">
+                    <div class="item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <div class="item-overlay">
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Mármore Carrara</h3>
+                        <p>Elegância clássica italiana</p>
+                    </div>
+                </div>
+                
+                <div class="catalog-item" data-category="marmore">
+                    <div class="item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <div class="item-overlay">
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Mármore Travertino</h3>
+                        <p>Textura única e natural</p>
+                    </div>
+                </div>
+
+                <div class="catalog-item" data-category="marmore">
+                    <div class="item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <div class="item-overlay">
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Mármore Calacatta</h3>
+                        <p>Luxo e sofisticação</p>
+                    </div>
+                </div>
+
+                <!-- Granitos -->
+                <div class="catalog-item" data-category="granito">
+                    <div class="item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <div class="item-overlay">
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Granito Preto São Gabriel</h3>
+                        <p>Resistência e beleza</p>
+                    </div>
+                </div>
+
+                <div class="catalog-item" data-category="granito">
+                    <div class="item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <div class="item-overlay">
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Granito Branco Ceará</h3>
+                        <p>Clareza e elegância</p>
+                    </div>
+                </div>
+
+                <div class="catalog-item" data-category="granito">
+                    <div class="item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <div class="item-overlay">
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Granito Verde Ubatuba</h3>
+                        <p>Naturalidade brasileira</p>
+                    </div>
+                </div>
+
+                <!-- Quartzo -->
+                <div class="catalog-item" data-category="quartzo">
+                    <div class="item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <div class="item-overlay">
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Quartzo Silestone</h3>
+                        <p>Tecnologia e durabilidade</p>
+                    </div>
+                </div>
+
+                <div class="catalog-item" data-category="quartzo">
+                    <div class="item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <div class="item-overlay">
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Quartzo Caesarstone</h3>
+                        <p>Inovação em superfícies</p>
+                    </div>
+                </div>
+
+                <!-- Dekton -->
+                <div class="catalog-item" data-category="dekton">
+                    <div class="item-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <div class="item-overlay">
+                            <button class="btn-view">Ver Detalhes</button>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Dekton Industrial</h3>
+                        <p>Resistência máxima</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services-header">
+                <h2 class="section-title">Nossos <span>Serviços</span></h2>
+                <p class="section-subtitle">Soluções completas para seu projeto</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Projetos Residenciais</h3>
+                    <p>Bancadas, pisos, revestimentos e acabamentos para sua casa com a qualidade RR Marmoraria.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Projetos Comerciais</h3>
+                    <p>Soluções para escritórios, lojas, restaurantes e empreendimentos comerciais de todos os portes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Instalação Profissional</h3>
+                    <p>Equipe especializada para instalação e acabamento perfeito em qualquer ambiente.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Manutenção</h3>
+                    <p>Serviços de polimento, restauração e manutenção para manter suas pedras sempre novas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-header">
+                <h2 class="section-title">Entre em <span>Contato</span></h2>
+                <p class="section-subtitle">Estamos prontos para atender você</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>WhatsApp</h3>
+                            <p>(11) 99999-9999</p>
+                            <a href="https://wa.me/5511999999999" target="_blank" class="contact-link">Enviar Mensagem</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>contato@rrmarmoraria.com.br</p>
+                            <a href="mailto:contato@rrmarmoraria.com.br" class="contact-link">Enviar Email</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Instagram</h3>
+                            <p>@rrmarmoraria</p>
+                            <a href="https://instagram.com/rrmarmoraria" target="_blank" class="contact-link">Seguir</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telefone</h3>
+                            <p>(11) 3333-3333</p>
+                            <a href="tel:+551133333333" class="contact-link">Ligar Agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Seu Telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>RR <span>MARMORARIA</span></h2>
+                    <p>Agilidade e Qualidade para sua Empresa</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://wa.me/5511999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/rrmarmoraria" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:contato@rrmarmoraria.com.br"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 RR Marmoraria. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
